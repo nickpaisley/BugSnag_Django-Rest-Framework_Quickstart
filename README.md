@@ -18,3 +18,7 @@ Navigate to the User Groups page:
 ```http://127.0.0.1:8000/groups/?format=api```
 
 To send an error, click the 'Extra Actions' dropdown and select 'Notify BugSnag'.
+
+The function that calls this notifier is found on line 39 in:
+```/tutorial/quickstart/views.py```
+
