@@ -14,7 +14,7 @@ Navigate to the main page and login with the default admin account:
 ```Password = password123```
 
 
-Navigate to the User Groups page;
-http://127.0.0.1:8000/groups/?format=api
+Navigate to the User Groups page:
+```http://127.0.0.1:8000/groups/?format=api```
 
 To send an error, click the 'Extra Actions' dropdown and select 'Notify BugSnag'.
