@@ -15,4 +15,4 @@ pass = password123
 Navigate to the User Groups page;
 http://127.0.0.1:8000/groups/?format=api
 
-To send an error, click the Extra Options dropdown and select 'Notify BugSnag'.
+To send an error, click the 'Extra Actions' dropdown and select 'Notify BugSnag'.
