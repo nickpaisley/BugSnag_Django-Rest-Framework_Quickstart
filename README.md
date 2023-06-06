@@ -3,11 +3,11 @@ This is a the Django Rest Framework Quickstart tutorial with BugSnag installed.
 Tutorial;
 https://www.django-rest-framework.org/tutorial/quickstart/
 
-Follow the steps in the Tutorial to setup a Python ENV and start the server;
+Follow the steps in the Tutorial to setup a Python ENV and start the server:
 ```python manage.py runserver```
 
-Navigate to the main page and login with the default admin account;
-http://127.0.0.1:8000/
+Navigate to the main page and login with the default admin account:
+```http://127.0.0.1:8000/```
 
 ```
 user = admin
