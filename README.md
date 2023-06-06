@@ -10,6 +10,7 @@ Navigate to the main page and login with the default admin account:
 ```http://127.0.0.1:8000/```
 
 user = admin
+
 pass = password123
 
 
