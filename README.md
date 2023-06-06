@@ -1,6 +1,6 @@
 This is a the Django Rest Framework Quickstart tutorial with BugSnag installed.
 
-Tutorial;
+Tutorial:
 https://www.django-rest-framework.org/tutorial/quickstart/
 
 Follow the steps in the Tutorial to setup a Python ENV and start the server:
