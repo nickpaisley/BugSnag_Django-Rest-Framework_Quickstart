@@ -9,10 +9,9 @@ Follow the steps in the Tutorial to setup a Python ENV and start the server:
 Navigate to the main page and login with the default admin account:
 ```http://127.0.0.1:8000/```
 
-```
 user = admin
 pass = password123
-```
+
 
 Navigate to the User Groups page;
 http://127.0.0.1:8000/groups/?format=api
