@@ -17,7 +17,9 @@ class UserViewSet(viewsets.ModelViewSet):
 
     queryset = User.objects.all().order_by("-date_joined")
     serializer_class = UserSerializer
-    permission_classes = [permissions.IsAuthenticated]
+
+    # don't want to check in local dev e.g. if using Postman...
+    # permission_classes = [permissions.IsAuthenticated]
 
     @action(detail=False, methods=["post"])
     def notify_bugsnag(self, request):
@@ -32,9 +34,11 @@ class GroupViewSet(viewsets.ModelViewSet):
 
     queryset = Group.objects.all()
     serializer_class = GroupSerializer
-    permission_classes = [permissions.IsAuthenticated]
 
-    @action(detail=False, methods=["get"])
+    # don't want to check in local dev e.g. if using Postman...
+    # permission_classes = [permissions.IsAuthenticated]
+
+    @action(detail=False, methods=["get", "post"])
     def notify_bugsnag(self, request):
         bugsnag.notify(TypeError("Button clicked"))
         return Response("Bugsnag notified")
