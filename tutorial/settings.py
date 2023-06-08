@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 BUGSNAG = {
-    'api_key': '6dbeb063f84ebfbe0ad431672267e4db',
+    'api_key': '<YOUR_KEY>',
     'project_root': '/',
 }
 
@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'bugsnag.django.middleware.BugsnagMiddleware',
+    'bugsnag_custom_middleware.simple_middleware'
 ]
 
 ROOT_URLCONF = 'tutorial.urls'

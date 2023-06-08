@@ -22,3 +22,10 @@ To send an error, click the 'Extra Actions' dropdown and select 'Notify BugSnag'
 The function that calls this notifier is found on line 39 in:
 ```/tutorial/tutorial/quickstart/views.py```
 
+## Create a virtual environment
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
